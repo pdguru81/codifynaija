@@ -1,0 +1,255 @@
+
+body{
+	font:Times New Roman;
+	padding: 4%;
+	
+}
+
+#header{
+	height: 5%;
+	width: 100%;
+}
+
+#first-header-div{
+	background-color: #229b44;
+	height: 10%;
+	color: white;
+	position: relative;
+	padding: 1%;
+}
+
+
+#message{
+	color: white;
+}
+
+#contact-us{
+	padding-left:3%;
+	padding-top: 1%;
+}
+
+#goal{
+	padding-left: 25%;
+	padding-top: 0.5%;
+}
+
+
+#plugins{
+	float: right;
+	position: absolute;
+	top: 13%;
+	right:7%;
+}
+
+
+
+#second-header-div{
+	/*background-color: #229b44;*/
+	background-image: url('../images/background.png');
+	position: relative;
+	padding: 1%;
+	color: white;
+}
+
+#image{
+	position: relative;
+	z-index: 10;
+	left:10%;
+}
+
+img.logoImage{
+   height: 7%;
+   width: 7%;
+   float: left
+}
+
+
+#navbars{
+	padding-top: 3%;
+	padding-left: 30%;
+}
+
+/*
+ .custom-navtabs >ul{
+ 	position: absolute;
+ 	left: 12%;
+ 	border-color: #229b44;
+ }*/
+
+ .nav-pills > li > a {
+ 	color: black;
+ }
+
+
+ .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+	background-color:  #229b44; 
+ }
+
+ 
+
+/* Set the color of the dropdown as green*/
+ .nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+ 	background-color: #229b44;
+ 	color:white;
+
+ }
+
+/*logic for carousel*/
+
+.carousel-inner > .item > img {
+ /*  position: absolute;*/
+
+  max-height: 500px;
+  height:auto;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.item{
+	 text-align: center;
+}
+
+
+ #copy-right{
+	padding-left: 40%;
+ }
+
+ .patners-color{
+ 	background-color:rgb(248, 248, 248);
+ }
+
+
+.patnerships{
+  padding-right: 10%;
+  position: relative;
+  z-index: 10;
+}
+
+#patners-div{
+	background-image: url('../images/background.png');
+	padding: 2%;
+}
+
+#body-message{
+	background-color: #229b44;
+	width: 100%;
+	padding:2%;
+}
+
+#footer-div{
+	background-color: #229b44;
+	height: 10%;
+	color: white;
+	position: relative;
+	padding: 1%;
+}
+
+
+#program-heading{
+ text-align: center;
+}
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+style="width: 40%;height: 20%;"
+
+
+
+
+
+#message-form{
+	padding: 10px;
+	vertical-align: middle;
+	border-color: black;
+}
+
+#message-form.input{
+	background-color: grey;
+	border-color: black;
+}
+
+#message{
+	width: 70%;
+	height: 100px;
+	border-color: black;
+
+}
+
+
+
+.navbar-default {
+    background-color: #0f006f;
+    border-color: #030033;
+}
+
+
+
+#content{
+	position: relative;
+	padding-top: 20%;
+}
+
+#myCarousel{
+	
+}
+
+
+img.collaborators{
+   display: block;
+   height: 25%;
+   width: 25%;
+   margin-left: auto;
+   margin-right: auto
+}
+
+img.digitalAid{
+	height: 40%;
+	width:40%;
+}
+
+
+
+#fun-desc{
+	top:20px;
+}
+
+img.coordinators{
+	height: 70%
+}
+
+#mycollaborators{
+	height: 20%;
+}
+
+
+#mission{
+	background-color:rgb(248, 248, 248);
+}
+
+
+#collaborators{
+	background-color:rgb(248, 248, 248);
+}*/
+
+	/*background-color: #229b44;
+ .nav-tabs > li > a {
+
+
+   
+  }
+
+  .nav-tabs > li > a:hover {
+   color: black; /*Change active text color here
+  }
+*/

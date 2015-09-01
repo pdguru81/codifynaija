@@ -1,0 +1,275 @@
+
+.header{
+	background-color: white;/*#229b44;*/
+	text-align:center;
+	position: relative;
+	border-color: white;
+
+}
+
+
+img.logoImage{
+   height: 10%;
+   width: 10%;
+   float: left;
+}
+
+#pin{
+   height: 250%;
+   width: 120%;
+   float: left;
+   z-index: 10;
+ /*  background-color: white;*/
+}
+
+#image{
+	position: relative;
+	z-index: 10;
+	left:3%;
+	top: 2px;
+	bottom: 2px;
+}
+
+#plugins{
+	float: right;
+	position: absolute;
+	top: 2%;
+	right:7%;
+	width: 17%;
+	height:39%;
+}
+
+
+#navbars{
+
+	height: 30%;
+	width:50%;
+	position: absolute;
+	left:15%;
+	/*bottom-padding: 100px;*/
+	top:25%;
+	text-align: center;
+	/*color: #229b44;*/
+	color:#229b44;
+	/*background-color: pink;*/
+}
+
+#header-text{
+	width: 100%;
+	padding-left: 20%;
+	font:Open Sans;
+	color: black;
+	font-size: 36;
+}
+
+
+.nav-tabs{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0px;
+	font-size: 24;
+ }
+
+/*
+ .custom-navtabs >ul{
+ 	position: absolute;
+ 	left: 12%;
+ 	border-color: #229b44;
+ }*/
+
+
+
+body{
+	background-image: url('../images/background.png');
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 20px;
+	word-spacing: 2px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#message-form{
+	padding: 10px;
+	vertical-align: middle;
+	border-color: black;
+	/*background-color: #229b44;*/
+}
+
+#message-form.input{
+	background-color: grey;
+	border-color: black;
+}
+
+#message{
+	width: 70%;
+	height: 100px;
+	border-color: black;
+
+}
+
+ .nav-tabs > li > a {
+   color: white; /*Change active text color here*/
+  }
+
+.nav-tabs > li > a:hover {
+   color: black; /*Change active text color here*/
+  }
+
+
+.navbar-default {
+    background-color: #0f006f;
+    border-color: #030033;
+}
+
+.div-color{
+	/*background-color: #229b44;*/
+	background-color: white;
+}
+
+#content{
+	position: relative;
+	padding-top: 20px;
+	height: 100%;
+}
+
+#myCarousel{
+	height: 50%;
+}
+
+
+img.collaborators{
+   display: block;
+   height: 25%;
+   width: 25%;
+   margin-left: auto;
+   margin-right: auto
+}
+
+img.digitalAid{
+	height: 40%;
+	width:40%;
+}
+
+#motto{
+	background-color: #229b44;
+	height: 10%;
+	color: white;
+	padding: 3px;
+}
+
+#fun-desc{
+	top:20px;
+}
+
+img.coordinators{
+	height: 70%
+}
+#mycollaborators{
+	height: 20%;
+}
+
+.body-title{
+	color: #229b44;
+}
+
+#brought-by{
+	padding-left: 20%;
+}
+
+
+a{
+color: black;
+}
+
+a:hover{
+	color: black;
+}
+
+.carousel-caption{
+ color:white;
+}
+
+iframe{
+	width:100% ;
+	height:600px;
+
+}
+
+.panel-title > a{
+	color: #229b44;
+
+}
+
+#app-form{
+	text-align: center;
+}
+
+
+#left{
+	border: 2px solid green;
+	width: 32%;
+	margin-right: 2%;
+	float: left;
+	height: 270px;
+	
+}
+
+
+#middle{
+	border: 2px solid blue;
+	width: 32%;
+	margin-right: 2%;
+	height: 100%;
+	float:left;
+	height: 270px;
+	
+}
+
+#right{
+	border: 2px solid #FFC600;
+	width: 32%;
+	height: 100%;
+	float:left;
+	height: 270px;
+}
+
+#information{
+	width: 100%;
+	overflow: hidden;
+    position: relative;
+}
+
+.info{
+	border-radius: 10px;
+}
+
+.info>h3{
+	margin-top: 0px;
+	color:white;
+	height: 20%;
+	text-align: center;
+}
+
+#info-head-left{
+	width: 100%;
+	height: 20%;
+	background-color:#229b44;
+}
+
+#info-head-center{
+	width: 100%;
+	background-color:blue;
+}
+
+#info-head-right{
+	width: 100%;
+	background-color:#FFC600;
+}
+
+.info-text{
+ padding:5px;
+}
+
+
+/*style="background-color: rgb(248, 248, 248);"*/

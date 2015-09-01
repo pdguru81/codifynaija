@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 //load facebook plugin
-  $.ajaxSetup({ cache: true });
+  // $.ajaxSetup({ cache: true });
   /*$.getScript('//connect.facebook.net/en_US/sdk.js', function(){
     FB.init({
       appId: '{your-app-id}',
@@ -10,15 +10,7 @@ $(document).ready(function() {
     $('#loginbutton,#feedbutton').removeAttr('disabled');
     FB.getLoginStatus(updateStatusCallback);
   });*/
-
   
-     // $("#students").load("I am here");
-  // $("#programs").load("programmes.html");
-
-  // $("#aboutUs").load("aboutUS.html");
-
-  // $("#contactUS").load("contactUS.html");
-
   $("a").click(function(e) {
       if(e.preventDefault)
         e.preventDefault();
@@ -26,18 +18,21 @@ $(document).ready(function() {
         e.stop();
   });
 
+
+   $("#motivation").load("motivation.html"); 
+   
  
 	
-	$("#submit").click(function(){
+	 $("#submit").click(function(){ });
 
-	});
-
-  $("#logo").click(function(){
+   $("#logo").click(function(){
    
-    window.location=  window.location.host+'/philipa/www/codify/'
-  });
+    window.location=  window.location.host+'/philipa/www/codify/'});
 
   
-  //logic from
+
+	$("#").click(function(){
+
+	});
 
 });
